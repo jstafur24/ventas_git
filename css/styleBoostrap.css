@@ -1,0 +1,48 @@
+.color1{
+    background: #9B5DE5;
+}
+
+.color2{
+    background: #F15BB5;
+}
+
+.color3{
+    background: #FEE440;
+}
+
+.color4{
+    background: #00BBF9;
+}
+
+.color5{
+    background: #00F5D4;
+}
+
+.color6{
+    background: #7209B7;
+}
+
+.color7{
+    background: #F95738;
+}
+
+.color8{
+    background: #d7d2ce;
+}
+
+.color9{
+    background: #08ed18;
+}
+
+.color10{
+    background: #f30808;
+}
+
+.color11{
+    background:black;
+}
+
+.titulin{
+    display: flex;
+    justify-content: center;
+}

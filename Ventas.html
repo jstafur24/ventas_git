@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styleBoostrap.css">
+    <title>Ventas</title>
+</head>
+<body>
+      <div class="container-fluid color8 pt-5 pb-2">
+
+        <!-- TITULO -->
+        <h1 class="titulin">COLOR IN</h1>  
+
+        <!-- TITULO CARRITO -->
+        <h2>Carrito De Compras</h2>
+        
+        <form action="">
+        
+        <!-- PRIMERA FILA-BARRA DE REFERENCIAS -->
+        <div class="row mb-3 justify-content-between">
+            <div class="col-md-4 color11 text-white">PRODUCTO</div>
+            <div class="col-md-1 color11 text-white">REFERENCIA</div>
+            <div class="col-md-2 color11 text-white">TIPO</div>
+            <div class="col-md-2 color11 text-white">PRECIO UNIDAD</div>
+            <div class="col-md-1 color11 text-white">CANTIDAD</div>
+            <div class="col-md-2 color11 text-white">SUBTOTAL</div>
+        </div>
+
+        <!-- SEGUNDA FILA -->
+        <div class="row mb-3 justify-content-between" >
+                    <!--img producto-->
+            <div class="col-md-1" > 
+                <textarea name="imgpro" id="imgpro" cols="7" rows="3" class="form-control"></textarea>  
+            </div>
+                    <!-- nombre producto -->
+            <div class="col-md-3" >
+                <input type="text" name="np1" id="np1" placeholder="Nombre Producto" class="form-control">
+            </div>
+                    <!-- referencia producto -->
+            <div class="col-md-1">
+                <input type="text"  placeholder="Referencia Producto"   class="form-control">
+            </div>
+                    <!--tipo producto-->
+            <div class="col-md-2">
+                <select name="tp1" id="tp1"  class="form-select">
+                    <option value="mate">Mate</option>
+                    <option value="brillante">Brillante</option>
+                    <option value="tornasol">Tornasol</option>
+                </select>
+            </div>
+                    <!-- precio unidad -->
+            <div class="col-md-2">
+                <input type="number" name="" id="" placeholder="Precio Unidad" class="form-control">
+            </div>
+            
+                <!-- cantidad -->
+            <div class="col-md-1">
+                <input type="number" name="" id="" placeholder="Cantidad" class="form-control">
+            </div>
+
+                 <!-- subtotal -->
+             <div class="col-md-2">
+                <input type="number" name="" id="" placeholder="Subtotal" class="form-control">
+            </div>
+
+        </div>
+
+        <!-- TERCERA FILA -->
+        <div class="row mb-3 justify-content-flex-start" >
+                <!-- Descuento -->
+             <div class="col-md-1">
+                <label for="">DESCUENTO:</label>
+            </div>
+
+            <div class="col-md-3">
+                <input type="number" name="" id="" placeholder="$" class="form-control">
+            </div>
+        </div>
+
+        <!-- CUARTA FILA -->
+        <div class="row mb-3 justify-content-flex-start">
+            <!-- Total -->
+            <div class="col-md-1">
+                <label for="">TOTAL:</label>
+            </div>
+
+            <div class="col-md-3">
+                <input type="number" name="" id="" placeholder="$" class="form-control">
+            </div>
+        </div>
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+        <!-- BOTON COMPRAR -->
+            <div class="row mb-3">
+                <div class="col d-grid gap-2 d-sm-grid">
+                    <input type="submit" class="btn btn-dark d-sm-block" value="Comprar">
+    
+                </div>
+    
+    
+                <div class="col d-grid gap-2 d-sm-grid">
+                    <input type="reset" class="btn btn-dark d-sm-block" value="Cancelar">
+                </div>
+            </div>
+       
+       
+       
+       
+       
+        
+        
+        
+        </form>
+    </div>
+
+     
+
+
+
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
